@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <div class="left">
+        <a href="/">Mathube Khuliso</a>
+    </div>
+
+    <div class="right">
+        <a href="https://github.com/MathubeKhuliso" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+            <span>Github</span>
+        </a>
+
+        <a href="mailto:khulisomathube882@gmail.com">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Email</span>
+        </a>
+
+        <a href="https://www.linkedin.com/in/mathube-khuliso-76127536a/" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-linkedin"></i>
+            <span>LinkedIn</span>
+        </a>
+    </div>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero-section">
+    <div class="text">
+        <h2>Hi, Khuliso here 👋🏽</h2>
+
+        <p>
+            I'm a second year BSc student majoring in Computer Science and Mathematics.<br>
+            I am passionate about becoming a data scientist and enjoy working with data.<br>
+            I possess a strong foundation in mathematics and programming, which I aim to use to make a global impact.
+        </p>
+
+        <div class="links">
+            <a href="#skills">
+                <i class="fa-solid fa-code"></i>
+                <span>Skills</span>
+            </a>
+
+            <a href="#completed-projects">
+                <i class="fa-solid fa-pen"></i>
+                <span>Completed Projects</span>
+            </a>
+
+            <a href="#contact">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Get In Touch</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="headshot">
+        <img src="/image/me.jpeg" alt="Mathube Khuliso">
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="skills-section">
+    <h2>Skills</h2>
+
+    <div class="text">
+        Good mathematical and computational skills<br>
+        Problem-solving skills<br>
+        Ability to learn and adapt quickly in different environments<br>
+        Team player with leadership ability<br>
+        Good programming skills<br><br>
+        <b>Languages:</b>
+    </div>
+
+    <div class="cells">
+        <div class="cell">
+            <img src="/image/HTML.jpeg" alt="HTML">
+            <span>HTML</span>
+        </div>
+
+        <div class="cell">
+            <img src="/image/CSS.jpeg" alt="CSS">
+            <span>CSS</span>
+        </div>
+
+        <div class="cell">
+            <img src="/image/Java.jpeg" alt="Java">
+            <span>Java</span>
+        </div>
+
+        <div class="cell">
+            <img src="/image/c++.jpeg" alt="C++">
+            <span>C++</span>
+        </div>
+
+        <div class="cell">
+            <img src="/image/python.jpeg" alt="Python">
+            <span>Python</span>
+        </div>
+    </div>
+
+    <div class="text2" align="center">
+        <b>Tools:</b>
+    </div>
+
+    <div class="cells2" align="center">
+        <div class="cell">
+            <img src="/image/A Studio.png" alt="Android Studio">
+            <span>Android Studio</span>
+        </div>
+
+        <div class="cell">
+            <img src="/image/VS Studio.png" alt="VS Code">
+            <span>VS Code</span>
+        </div>
+
+        <div class="cell">
+            <img src="/image/NetBeans.png" alt="NetBeans">
+            <span>Apache NetBeans</span>
+        </div>
+
+        <div class="cell">
+            <img src="/image/PyCharm.png" alt="PyCharm">
+            <span>PyCharm</span>
+        </div>
+
+        <div class="cell">
+            <img src="/image/CD Blocks.png" alt="CodeBlocks">
+            <span>CodeBlocks</span>
+        </div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="completed-projects" class="projects-section">
+    <h2>Completed Projects</h2>
+
+    <div class="group">
+        <div class="PROJECT-NAME">
+            <img src="/image/UperMarket MNGSYSTM.jpeg" alt="SuperMarket Management System" width="350">
+            <p><b>SuperMarket Management System</b></p>
+        </div>
+
+        <div class="PROJECT-DETAILS">
+            A system developed to manage sales and stock<br>
+            Allows authorized personnel such as managers to monitor sales and profit<br>
+            Simplifies work for cashiers and other staff
+        </div>
+    </div>
+
+    <div class="group2">
+        <div class="PROJECT-NAME2">
+            <img src="/image/MatrixApp code.png" alt="Matrix Application" width="350">
+            <p><b>Matrix Application</b></p>
+        </div>
+
+        <div class="PROJECT-DETAILS2">
+            An application built to perform matrix operations such as:<br>
+            Matrix arithmetic<br>
+            Matrix transposes<br>
+            Matrix inverses
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact-section">
+    <h2>Get in Touch!</h2>
+
+    <div class="group">
+        <div class="text" align="center">
+            Got a question or want us to work together?<br>
+            Don’t hesitate to reach out.<br>
+            I'd love for us to collaborate and build something great.<br>
+            "Two heads are better than one" 😉
+        </div>
+
+        <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+            <input type="hidden" name="form-name" value="contact">
+
+            <p hidden>
+                <label>Don’t fill this out: <input name="bot-field"></label>
+            </p>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5"></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 Mathube Khuliso</p>
+</footer>
+
+</body>
+</html>
